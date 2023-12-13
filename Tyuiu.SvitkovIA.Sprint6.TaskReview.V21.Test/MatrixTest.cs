@@ -14,7 +14,7 @@ namespace Tyuiu.SvitkovIA.Sprint6.TaskReview.V21.Test
         [TestMethod]
         public void ValidGetMatrix()
         {
-            int[,] array = { { 1, 2, 3 }, { 4, 5, 6 } };
+            int[,] array = {  { 1, 2, 3 }, { 4, 5, 6 } };
             int n1 = 1;
             int n2 = 10;
             int c = 2;

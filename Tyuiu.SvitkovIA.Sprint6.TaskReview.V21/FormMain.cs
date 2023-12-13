@@ -22,7 +22,7 @@ namespace Tyuiu.SvitkovIA.Sprint6.TaskReview.V21
             InitializeComponent();
         }
 
-        private void GenerateButton_Click_Click(object sender, EventArgs e)
+        private void  GenerateButton_Click_Click(object sender, EventArgs e)
         {
             int rows = Convert.ToInt32(NumRowsTextBox_SIA.Text);
             int columns = Convert.ToInt32(NumColumnsTextBox_SIA.Text);
