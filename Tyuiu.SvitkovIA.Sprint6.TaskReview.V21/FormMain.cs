@@ -14,10 +14,10 @@ using System.Drawing.Drawing2D;
 
 namespace Tyuiu.SvitkovIA.Sprint6.TaskReview.V21
 {
-    public partial class FormMain : Form
+    public partial class FormMain_SIA : Form
     {
 
-        public FormMain()
+        public FormMain_SIA()
         {
             InitializeComponent();
         }
@@ -92,6 +92,13 @@ namespace Tyuiu.SvitkovIA.Sprint6.TaskReview.V21
                 }
             }
             return maxElement;
+
+
+        }
+
+        private void buttonInfo_SIA_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("СпринтРевью6 выполнил студент группы АСОиУБ-23-2 Cвитков Иван Андреевич", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }

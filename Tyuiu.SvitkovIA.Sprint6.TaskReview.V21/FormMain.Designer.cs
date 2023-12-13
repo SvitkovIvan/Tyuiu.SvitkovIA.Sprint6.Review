@@ -1,6 +1,6 @@
 ﻿namespace Tyuiu.SvitkovIA.Sprint6.TaskReview.V21
 {
-    partial class FormMain
+    partial class FormMain_SIA
     {
         /// <summary>
         /// Required designer variable.
@@ -53,27 +53,30 @@
             this.labelMax = new System.Windows.Forms.Label();
             this.labelNum = new System.Windows.Forms.Label();
             this.labelNumCol = new System.Windows.Forms.Label();
+            this.buttonInfo_SIA = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.MatrixDataGridView_SIA)).BeginInit();
             this.SuspendLayout();
             // 
             // GenerateButton_Click
             // 
-            this.GenerateButton_Click.Location = new System.Drawing.Point(535, 293);
+            this.GenerateButton_Click.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.GenerateButton_Click.Location = new System.Drawing.Point(439, 225);
             this.GenerateButton_Click.Name = "GenerateButton_Click";
-            this.GenerateButton_Click.Size = new System.Drawing.Size(124, 51);
+            this.GenerateButton_Click.Size = new System.Drawing.Size(156, 61);
             this.GenerateButton_Click.TabIndex = 0;
             this.GenerateButton_Click.Text = "Сгенерировать";
-            this.GenerateButton_Click.UseVisualStyleBackColor = true;
+            this.GenerateButton_Click.UseVisualStyleBackColor = false;
             this.GenerateButton_Click.Click += new System.EventHandler(this.GenerateButton_Click_Click);
             // 
             // MaxElementButton_Click
             // 
-            this.MaxElementButton_Click.Location = new System.Drawing.Point(379, 293);
+            this.MaxElementButton_Click.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.MaxElementButton_Click.Location = new System.Drawing.Point(281, 225);
             this.MaxElementButton_Click.Name = "MaxElementButton_Click";
-            this.MaxElementButton_Click.Size = new System.Drawing.Size(116, 51);
+            this.MaxElementButton_Click.Size = new System.Drawing.Size(152, 61);
             this.MaxElementButton_Click.TabIndex = 1;
             this.MaxElementButton_Click.Text = "Максимальный элемент";
-            this.MaxElementButton_Click.UseVisualStyleBackColor = true;
+            this.MaxElementButton_Click.UseVisualStyleBackColor = false;
             this.MaxElementButton_Click.Click += new System.EventHandler(this.MaxElementButton_Click_Click);
             // 
             // n1TextBox_SIA
@@ -126,11 +129,11 @@
             this.Column4,
             this.Column5,
             this.Column6});
-            this.MatrixDataGridView_SIA.Location = new System.Drawing.Point(394, 51);
+            this.MatrixDataGridView_SIA.Location = new System.Drawing.Point(281, 27);
             this.MatrixDataGridView_SIA.Name = "MatrixDataGridView_SIA";
             this.MatrixDataGridView_SIA.RowHeadersWidth = 51;
             this.MatrixDataGridView_SIA.RowTemplate.Height = 24;
-            this.MatrixDataGridView_SIA.Size = new System.Drawing.Size(240, 150);
+            this.MatrixDataGridView_SIA.Size = new System.Drawing.Size(483, 192);
             this.MatrixDataGridView_SIA.TabIndex = 7;
             // 
             // Column1
@@ -271,11 +274,23 @@
             this.labelNumCol.TabIndex = 18;
             this.labelNumCol.Text = "NumColumns:";
             // 
-            // FormMain
+            // buttonInfo_SIA
+            // 
+            this.buttonInfo_SIA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.buttonInfo_SIA.Location = new System.Drawing.Point(601, 225);
+            this.buttonInfo_SIA.Name = "buttonInfo_SIA";
+            this.buttonInfo_SIA.Size = new System.Drawing.Size(163, 61);
+            this.buttonInfo_SIA.TabIndex = 19;
+            this.buttonInfo_SIA.Text = "Справка";
+            this.buttonInfo_SIA.UseVisualStyleBackColor = false;
+            this.buttonInfo_SIA.Click += new System.EventHandler(this.buttonInfo_SIA_Click);
+            // 
+            // FormMain_SIA
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(779, 450);
+            this.Controls.Add(this.buttonInfo_SIA);
             this.Controls.Add(this.labelNumCol);
             this.Controls.Add(this.labelNum);
             this.Controls.Add(this.labelMax);
@@ -295,8 +310,8 @@
             this.Controls.Add(this.n1TextBox_SIA);
             this.Controls.Add(this.MaxElementButton_Click);
             this.Controls.Add(this.GenerateButton_Click);
-            this.Name = "FormMain";
-            this.Text = "Form1";
+            this.Name = "FormMain_SIA";
+            this.Text = "СпринтРевью 6 | Вариант 21 Свитков И. А.";
             ((System.ComponentModel.ISupportInitialize)(this.MatrixDataGridView_SIA)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -330,6 +345,7 @@
         private System.Windows.Forms.Label labelMax;
         private System.Windows.Forms.Label labelNum;
         private System.Windows.Forms.Label labelNumCol;
+        private System.Windows.Forms.Button buttonInfo_SIA;
     }
 }
 
